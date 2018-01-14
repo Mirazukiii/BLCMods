@@ -1,0 +1,39 @@
+#This is my first mod I've made, also huge thanks to Mikey for helping me fix the issues I've had :)
+=== WeaponPartListCollectionDefinition properties ===
+  AssociatedWeaponType=None
+  BodyPartData=(bEnabled=False,WeightedParts=)
+  GripPartData=(bEnabled=False,WeightedParts=)
+  BarrelPartData=(bEnabled=True,WeightedParts=((Part=WeaponPartDefinition'GD_Weap_SMG.Barrel.SMG_Barrel_Alien_Bandit',Manufacturers=,MinGameStageIndex=0,MaxGameStageIndex=1,DefaultWeightIndex=2)))
+  SightPartData=(bEnabled=False,WeightedParts=)
+  StockPartData=(bEnabled=False,WeightedParts=)
+  ElementalPartData=(bEnabled=True,WeightedParts=((Part=WeaponPartDefinition'GD_Weap_SMG.elemental.SMG_Elemental_Fire',Manufacturers=((Manufacturer=None,DefaultWeightIndex=1)),MinGameStageIndex=0,MaxGameStageIndex=1,DefaultWeightIndex=3)))
+  set GD_Weap_SMG.A_Weapons_Unique.SMG_Bandit_3_BoneShredder:WeaponPartListCollectionDefinition_175 ElementalPartData (bEnabled=True,WeightedParts=((Part=WeaponPartDefinition'GD_Weap_SMG.elemental.SMG_Elemental_Fire',Manufacturers=((Manufacturer=None,DefaultWeightIndex=1)),MinGameStageIndex=0,MaxGameStageIndex=1,DefaultWeightIndex=3)))
+  Accessory2PartData=(bEnabled=False,WeightedParts=)
+  MaterialPartData=(bEnabled=False,WeightedParts=)
+=== InventoryPartListCollectionDefinition properties ===
+  PartReplacementMode=EPRM_Selective
+  ConsolidatedAttributeInitData(0)=(BaseValueConstant=1.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)
+  ConsolidatedAttributeInitData(1)=(BaseValueConstant=100.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)
+  ConsolidatedAttributeInitData(2)=(BaseValueConstant=0.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)
+  ConsolidatedAttributeInitData(3)=(BaseValueConstant=7.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)
+  ConsolidatedAttributeInitData(4)=(BaseValueConstant=0.000000,BaseValueAttribute=None,InitializationDefinition=AttributeInitializationDefinition'GD_Balance.Weighting.Weight_2_Uncommon',BaseValueScaleConstant=1.000000)
+  ConsolidatedAttributeInitData(5)=(BaseValueConstant=13.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)
+  ConsolidatedAttributeInitData(6)=(BaseValueConstant=11.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)
+  ConsolidatedAttributeInitData(7)=(BaseValueConstant=15.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)
+=== Object properties ===
+  VfTableObject=
+  HashNext=
+  ObjectFlags=
+  HashOuterNext=
+  StateFrame=
+  Linker=None
+  LinkerIndex=
+  ObjectInternalInteger=152390
+  NetIndex=1370
+  Outer=WeaponBalanceDefinition'GD_Weap_SMG.A_Weapons.SMG_Bandit_5_Alien'
+  Name=PartList
+  Class=Class'WillowGame.WeaponPartListCollectionDefinition'
+  ObjectArchetype=WeaponPartListCollectionDefinition'WillowGame.Default__WeaponBalanceDefinition:PartList'
+  set GD_Weap_SMG.Barrel.SMG_Barrel_Bandit_BoneShredder CustomFiringModeDefinition GD_Weap_SMG.FiringModes.Bullet_Plasma_Default
+  set GD_Weap_SMG.Name.Title.Title__Unique_BoneShredder PartName oof
+  set GD_Weap_SMG.Name.Title.Title__Unique_BoneShredder:AttributePresentationDefinition_8 NoConstraintText Hello what's up guys it's Scarce here
